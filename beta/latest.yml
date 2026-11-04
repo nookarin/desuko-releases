@@ -1,0 +1,10 @@
+version: 0.1.1
+files:
+  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.1/Desuko-Setup-0.1.1.exe
+    sha512: rN6YEoGfUl8nYcLG6WlS3oL+zJbjIxXtRHPboBipBXyeh94Es89da4mQZMCXmyKdmTOH4icleQ3uMaFp764M7g==
+    size: 125867607
+path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.1/Desuko-Setup-0.1.1.exe
+sha512: rN6YEoGfUl8nYcLG6WlS3oL+zJbjIxXtRHPboBipBXyeh94Es89da4mQZMCXmyKdmTOH4icleQ3uMaFp764M7g==
+releaseNotes: |
+  First public beta of Desuko.
+releaseDate: '2026-11-04T15:23:06.960Z'
