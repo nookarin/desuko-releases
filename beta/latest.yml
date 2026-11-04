@@ -1,10 +1,13 @@
-version: 0.1.1
+version: 0.1.2
 files:
-  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.1/Desuko-Setup-0.1.1.exe
-    sha512: rN6YEoGfUl8nYcLG6WlS3oL+zJbjIxXtRHPboBipBXyeh94Es89da4mQZMCXmyKdmTOH4icleQ3uMaFp764M7g==
-    size: 125867607
-path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.1/Desuko-Setup-0.1.1.exe
-sha512: rN6YEoGfUl8nYcLG6WlS3oL+zJbjIxXtRHPboBipBXyeh94Es89da4mQZMCXmyKdmTOH4icleQ3uMaFp764M7g==
+  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.2/Desuko-Setup-0.1.2.exe
+    sha512: 4RzSihHeNLYLUwyqGXFpp7V1HZmOBL7WtsJ4iMmiG1DN40NuArYAnZ7+RNR6eGEEz8IUy1Gob/h8FlZxqc9evQ==
+    size: 125878297
+path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.2/Desuko-Setup-0.1.2.exe
+sha512: 4RzSihHeNLYLUwyqGXFpp7V1HZmOBL7WtsJ4iMmiG1DN40NuArYAnZ7+RNR6eGEEz8IUy1Gob/h8FlZxqc9evQ==
 releaseNotes: |
-  First public beta of Desuko.
-releaseDate: '2026-11-04T15:23:06.960Z'
+  • Edit your characters in Character Studio after installing them: change the name, size, animations and states, then Save changes (Settings → Character → Edit).
+  • Mochi has a full personality now. You can change Mochi too, and bring it back with Reset to default.
+  • Desuko calls your companion by its name: "Ask Mochi…", "Message Mochi…".
+  • VRM 0.x characters stand with their arms down instead of raising them above their head.
+releaseDate: '2026-11-04T22:17:29.345Z'
