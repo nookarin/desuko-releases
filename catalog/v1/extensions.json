@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "notion",
+      "name": "Notion",
+      "publisher": "Notion",
+      "homepage": "https://developers.notion.com/docs/mcp",
+      "category": "work",
+      "transport": "http",
+      "url": "https://mcp.notion.com/mcp",
+      "auth": "oauth",
+      "description": "Search, read and update pages and databases in your Notion workspace."
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "publisher": "Linear",
+      "homepage": "https://linear.app/docs/mcp",
+      "category": "work",
+      "transport": "http",
+      "url": "https://mcp.linear.app/mcp",
+      "auth": "oauth",
+      "description": "Find, create and update Linear issues, projects and comments."
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "publisher": "Canva",
+      "homepage": "https://www.canva.dev/docs/mcp/",
+      "category": "work",
+      "transport": "http",
+      "url": "https://mcp.canva.com/mcp",
+      "auth": "oauth",
+      "description": "Find, create and edit Canva designs."
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "publisher": "GitHub",
+      "homepage": "https://github.com/github/github-mcp-server",
+      "category": "dev",
+      "transport": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "auth": "token",
+      "secret": {
+        "name": "Authorization",
+        "prefix": "Bearer ",
+        "required": true,
+        "helpUrl": "https://github.com/settings/personal-access-tokens"
+      },
+      "description": "Work with GitHub repositories, issues, pull requests and Actions."
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "publisher": "Sentry",
+      "homepage": "https://docs.sentry.io/product/sentry-mcp/",
+      "category": "dev",
+      "transport": "http",
+      "url": "https://mcp.sentry.dev/mcp",
+      "auth": "oauth",
+      "description": "Look up Sentry errors, issues and releases."
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "publisher": "Vercel",
+      "homepage": "https://vercel.com/docs/mcp/vercel-mcp",
+      "category": "dev",
+      "transport": "http",
+      "url": "https://mcp.vercel.com",
+      "auth": "oauth",
+      "description": "See Vercel projects, deployments and logs, and search Vercel docs."
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "publisher": "Stripe",
+      "homepage": "https://docs.stripe.com/mcp",
+      "category": "dev",
+      "transport": "http",
+      "url": "https://mcp.stripe.com",
+      "auth": "token",
+      "secret": {
+        "name": "Authorization",
+        "prefix": "Bearer ",
+        "required": true,
+        "helpUrl": "https://dashboard.stripe.com/apikeys"
+      },
+      "description": "Look up and manage Stripe customers, payments and products. Use a restricted key."
+    },
+    {
+      "id": "context7",
+      "name": "Context7",
+      "publisher": "Upstash",
+      "homepage": "https://context7.com",
+      "category": "docs",
+      "transport": "http",
+      "url": "https://mcp.context7.com/mcp",
+      "auth": "none",
+      "secret": {
+        "name": "CONTEXT7_API_KEY",
+        "required": false,
+        "helpUrl": "https://context7.com/dashboard"
+      },
+      "description": "Up-to-date documentation and code examples for libraries and frameworks."
+    },
+    {
+      "id": "cloudflare-docs",
+      "name": "Cloudflare Docs",
+      "publisher": "Cloudflare",
+      "homepage": "https://developers.cloudflare.com/agents/model-context-protocol/",
+      "category": "docs",
+      "transport": "http",
+      "url": "https://docs.mcp.cloudflare.com/mcp",
+      "auth": "none",
+      "description": "Search Cloudflare’s developer documentation."
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "publisher": "Hugging Face",
+      "homepage": "https://huggingface.co/settings/mcp",
+      "category": "docs",
+      "transport": "http",
+      "url": "https://huggingface.co/mcp",
+      "auth": "none",
+      "secret": {
+        "name": "Authorization",
+        "prefix": "Bearer ",
+        "required": false,
+        "helpUrl": "https://huggingface.co/settings/tokens"
+      },
+      "description": "Search models, datasets, Spaces and papers on Hugging Face."
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright",
+      "publisher": "Microsoft",
+      "homepage": "https://github.com/microsoft/playwright-mcp",
+      "category": "browser",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@0.0.83"
+      ],
+      "needs": "node",
+      "description": "Drive a separate Chromium browser on this PC: open pages, click and fill forms."
+    },
+    {
+      "id": "sequential-thinking",
+      "name": "Sequential Thinking",
+      "publisher": "Model Context Protocol",
+      "homepage": "https://github.com/modelcontextprotocol/servers",
+      "category": "utility",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking@1.0.0"
+      ],
+      "needs": "node",
+      "description": "Helps the model work through hard problems step by step."
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "publisher": "Model Context Protocol",
+      "homepage": "https://github.com/modelcontextprotocol/servers",
+      "category": "utility",
+      "transport": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-time==2026.10.10"
+      ],
+      "needs": "uv",
+      "description": "Current time and time-zone conversions."
+    }
+  ]
+}
