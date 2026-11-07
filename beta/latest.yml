@@ -1,13 +1,11 @@
-version: 0.1.3
+version: 0.1.4
 files:
-  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.3/Desuko-Setup-0.1.3.exe
-    sha512: tiBflex6aa2FV3esnEOYCThxNGYiHB787fKZ5pxHhM+8JwggtK5BoG7gh52ESia2W+4MjNkWLRzDD9GeD2GJjA==
-    size: 125906361
-path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.3/Desuko-Setup-0.1.3.exe
-sha512: tiBflex6aa2FV3esnEOYCThxNGYiHB787fKZ5pxHhM+8JwggtK5BoG7gh52ESia2W+4MjNkWLRzDD9GeD2GJjA==
+  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.4/Desuko-Setup-0.1.4.exe
+    sha512: rVrkW0rhNXIOaaVgHMtZ/pyZD3jQQcXW6G4y4gI6WPNazWERVkyKjr3AwAUYW4xWYjnr/5GuDkYCTbMKlPWiDg==
+    size: 125904963
+path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.4/Desuko-Setup-0.1.4.exe
+sha512: rVrkW0rhNXIOaaVgHMtZ/pyZD3jQQcXW6G4y4gI6WPNazWERVkyKjr3AwAUYW4xWYjnr/5GuDkYCTbMKlPWiDg==
 releaseNotes: |
-  • Discover: find and download local AI models, extensions (connectors) and plugins in one place (Settings → Discover, tray or the character's menu).
-  • A Performance widget shows CPU and memory split by games, browsers, system and Desuko, and GPU use where Windows reports it (launcher or tray → Performance).
-  • Settings → About shows what changed in this version and keeps a list of every release.
-  • Live2D and 3D (VRM) characters are turned off for now; sprite characters like Mochi work as before.
-releaseDate: '2026-11-05T03:51:32.094Z'
+  • Status dashboard: one window shows your AI model, chat and approvals, voice, tasks, schedules, local engine, services, browser, sandbox, updates and performance. Each card opens the widget or Settings page that changes it, and the header says whether anything needs attention (launcher or tray → Dashboard).
+  • Desuko is Windows-only now: Linux support, Linux installers and the Linux test checklist are gone (ADR 0046).
+releaseDate: '2026-11-07T11:34:47.718Z'
