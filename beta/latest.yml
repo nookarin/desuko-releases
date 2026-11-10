@@ -1,11 +1,14 @@
-version: 0.1.4
+version: 0.1.6
 files:
-  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.4/Desuko-Setup-0.1.4.exe
-    sha512: rVrkW0rhNXIOaaVgHMtZ/pyZD3jQQcXW6G4y4gI6WPNazWERVkyKjr3AwAUYW4xWYjnr/5GuDkYCTbMKlPWiDg==
-    size: 125904963
-path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.4/Desuko-Setup-0.1.4.exe
-sha512: rVrkW0rhNXIOaaVgHMtZ/pyZD3jQQcXW6G4y4gI6WPNazWERVkyKjr3AwAUYW4xWYjnr/5GuDkYCTbMKlPWiDg==
+  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.6/Desuko-Setup-0.1.6.exe
+    sha512: ZMdXl1r51TVQsSTdEqjmVMJzxvweM1qeYP82OqpoCV39x7+F/orVZbRXWDuEpsd9thjC3zB8PI/+V89LvwF6BA==
+    size: 126859327
+path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.6/Desuko-Setup-0.1.6.exe
+sha512: ZMdXl1r51TVQsSTdEqjmVMJzxvweM1qeYP82OqpoCV39x7+F/orVZbRXWDuEpsd9thjC3zB8PI/+V89LvwF6BA==
 releaseNotes: |
-  • Status dashboard: one window shows your AI model, chat and approvals, voice, tasks, schedules, local engine, services, browser, sandbox, updates and performance. Each card opens the widget or Settings page that changes it, and the header says whether anything needs attention (launcher or tray → Dashboard).
-  • Desuko is Windows-only now: Linux support, Linux installers and the Linux test checklist are gone (ADR 0046).
-releaseDate: '2026-11-07T11:34:47.718Z'
+  • Fixed: the built-in local AI could freeze the whole computer. With Context length on Auto, a model was loaded with its largest possible context (up to 256K tokens), which needed far more memory than the PC has. Auto now picks 4K to 32K tokens to fit your memory.
+  • Fixed: graphics cards were not found on some PCs (the check timed out with some NVIDIA drivers), so models ran on the processor. If that happened to you, Desuko downloads the GPU engine on your next message.
+  • The local AI engine runs at a lower priority, so the PC stays responsive while it answers.
+  • Fixed: two requests arriving together could start the local engine twice and load the model twice.
+  • Fixed: after a model failed to load, loading another one right away could still show the old error while the new model was running.
+releaseDate: '2026-11-10T07:26:37.735Z'
