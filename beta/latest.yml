@@ -1,10 +1,10 @@
-version: 0.1.7
+version: 0.1.8
 files:
-  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.7/Desuko-Setup-0.1.7.exe
-    sha512: JtnQvM8jlYq3/80uvN6TMauTJmr5Mn5znMXtUS7a5417aPncXypmIy094g/GcezUrxVNxkLLSgyQY5jZx9TMag==
-    size: 126866496
-path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.7/Desuko-Setup-0.1.7.exe
-sha512: JtnQvM8jlYq3/80uvN6TMauTJmr5Mn5znMXtUS7a5417aPncXypmIy094g/GcezUrxVNxkLLSgyQY5jZx9TMag==
+  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.8/Desuko-Setup-0.1.8.exe
+    sha512: Zobobo6DBezSbxJCqgAuDYCzq7TS8g2lg4TOIHdMs65Zq+sEBsl1BpI7CalqaerZX5G+lDA5qzVs4cruTY3uDw==
+    size: 126873175
+path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.8/Desuko-Setup-0.1.8.exe
+sha512: Zobobo6DBezSbxJCqgAuDYCzq7TS8g2lg4TOIHdMs65Zq+sEBsl1BpI7CalqaerZX5G+lDA5qzVs4cruTY3uDw==
 releaseNotes: |
   • Desuko now has one main window. Click the tray icon (or "Open Desuko") to see Home: what your companion is doing, a quick character switch, your recent chats (open, delete or start a new one) and the status of everything else. Every setting is in the same window's sidebar.
   • Hide widgets: a small eye button that hides every unpinned widget and brings them back. Pinned widgets stay. Find it in widget mode's launcher, or use the tray's "Hide unpinned widgets".
@@ -13,4 +13,4 @@ releaseNotes: |
   • The character reacts to music and video with two new states. Mochi has placeholder animations for now. Turn it off in Settings → General → "React to music and video". What you play stays on your PC.
   • Sign in with OpenRouter: Settings → AI providers → OpenRouter opens your browser, you approve, and Desuko gets a key for your own OpenRouter account. No key to paste, and one account reaches models from many companies.
   • Fixed: "Show character" in the tray did nothing after the character had been closed.
-releaseDate: '2026-11-14T21:07:42.648Z'
+releaseDate: '2026-11-14T22:16:11.470Z'
