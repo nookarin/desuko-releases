@@ -1,14 +1,16 @@
-version: 0.1.6
+version: 0.1.7
 files:
-  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.6/Desuko-Setup-0.1.6.exe
-    sha512: ZMdXl1r51TVQsSTdEqjmVMJzxvweM1qeYP82OqpoCV39x7+F/orVZbRXWDuEpsd9thjC3zB8PI/+V89LvwF6BA==
-    size: 126859327
-path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.6/Desuko-Setup-0.1.6.exe
-sha512: ZMdXl1r51TVQsSTdEqjmVMJzxvweM1qeYP82OqpoCV39x7+F/orVZbRXWDuEpsd9thjC3zB8PI/+V89LvwF6BA==
+  - url: https://github.com/nookarin/desuko-releases/releases/download/v0.1.7/Desuko-Setup-0.1.7.exe
+    sha512: JtnQvM8jlYq3/80uvN6TMauTJmr5Mn5znMXtUS7a5417aPncXypmIy094g/GcezUrxVNxkLLSgyQY5jZx9TMag==
+    size: 126866496
+path: https://github.com/nookarin/desuko-releases/releases/download/v0.1.7/Desuko-Setup-0.1.7.exe
+sha512: JtnQvM8jlYq3/80uvN6TMauTJmr5Mn5znMXtUS7a5417aPncXypmIy094g/GcezUrxVNxkLLSgyQY5jZx9TMag==
 releaseNotes: |
-  • Fixed: the built-in local AI could freeze the whole computer. With Context length on Auto, a model was loaded with its largest possible context (up to 256K tokens), which needed far more memory than the PC has. Auto now picks 4K to 32K tokens to fit your memory.
-  • Fixed: graphics cards were not found on some PCs (the check timed out with some NVIDIA drivers), so models ran on the processor. If that happened to you, Desuko downloads the GPU engine on your next message.
-  • The local AI engine runs at a lower priority, so the PC stays responsive while it answers.
-  • Fixed: two requests arriving together could start the local engine twice and load the model twice.
-  • Fixed: after a model failed to load, loading another one right away could still show the old error while the new model was running.
-releaseDate: '2026-11-10T07:26:37.735Z'
+  • Desuko now has one main window. Click the tray icon (or "Open Desuko") to see Home: what your companion is doing, a quick character switch, your recent chats (open, delete or start a new one) and the status of everything else. Every setting is in the same window's sidebar.
+  • Hide widgets: a small eye button that hides every unpinned widget and brings them back. Pinned widgets stay. Find it in widget mode's launcher, or use the tray's "Hide unpinned widgets".
+  • Local models now say what they need: RAM to run on the processor alone, video memory for a graphics card, and whether a graphics card is recommended.
+  • Media controller: a new Media widget shows what is playing on your PC (title, artist, app) with previous, play/pause and next (launcher or tray → Media controller).
+  • The character reacts to music and video with two new states. Mochi has placeholder animations for now. Turn it off in Settings → General → "React to music and video". What you play stays on your PC.
+  • Sign in with OpenRouter: Settings → AI providers → OpenRouter opens your browser, you approve, and Desuko gets a key for your own OpenRouter account. No key to paste, and one account reaches models from many companies.
+  • Fixed: "Show character" in the tray did nothing after the character had been closed.
+releaseDate: '2026-11-14T21:07:42.648Z'
